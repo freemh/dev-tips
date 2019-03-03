@@ -1,0 +1,22 @@
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #0000;
+  border-radius: 0.25rem; }
+  .alert.alert--success {
+    background: #d4edda;
+    border-color: #8aaa91; }
+  .alert.alert--danger {
+    background: #f8d7da;
+    border-color: #c59297; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  padding: 1rem; }
+
+/*# sourceMappingURL=main.css.map */

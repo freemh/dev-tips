@@ -1,0 +1,27 @@
+.alert {
+  --text: #444;
+  --bg: #ccc;
+  --border: #0000;
+
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+
+  /* Theme Styling */
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.alert--success {
+  --text: #155724;
+  --bg: #d4edda;
+  --border: #8aaa91;
+}
+
+.alert--danger {
+  --text: #721c24;
+  --bg: #f8d7da;
+  --border: #c59297;
+}
