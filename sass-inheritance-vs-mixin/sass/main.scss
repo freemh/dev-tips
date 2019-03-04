@@ -1,0 +1,31 @@
+@import "reset";
+
+// Mixin
+@mixin content {
+  background: #000;
+  color: #fff;
+
+  a {
+    color: green;
+  }
+}
+
+// Inheritance
+%content {
+  background: #000;
+  color: #fff;
+
+  a {
+    color: green;
+  }
+}
+
+.item-1 {
+  // @include content;
+  @extend %content;
+}
+
+.item-2 {
+  // @include content;
+  font-size: 12px;
+}
