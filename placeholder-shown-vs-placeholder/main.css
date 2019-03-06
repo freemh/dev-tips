@@ -1,0 +1,11 @@
+@import "reset.css";
+
+/* pseudo element placeholder */
+input[type="text"]::placeholder {
+  border: 1px solid red;
+}
+
+/* pseudo class placeholder-shown */
+input[type="text"]:placeholder-shown {
+  border: 4px solid green;
+}
