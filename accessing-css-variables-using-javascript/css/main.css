@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary: blue;
+  --secondary: green;
+}
+
+h1 {
+  color: var(--primary);
+}
+
+p {
+  color: var(--secondary);
+}
